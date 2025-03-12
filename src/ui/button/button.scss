@@ -1,0 +1,15 @@
+@import '@/styles/variables.scss';
+
+.button {
+  border: none;
+  width: auto;
+  background-color: #5e88d8;
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  box-shadow: inset -1px 1px 3px 0 #ffffff0f, 2px 2px 3px 0 #ffffff30;
+  padding: 4px 16px;
+  height: 32px;
+  border-radius: 6px;
+}

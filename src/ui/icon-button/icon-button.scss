@@ -1,0 +1,19 @@
+@import '@/styles/variables.scss';
+
+.icon-button {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #252635;
+  border: 1px solid #35364d;
+  box-shadow: $double-shadows-twilight;
+  padding: 0;
+
+  &.small {
+    width: 24px;
+    height: 24px;
+    background-color: #2E2F3F
+  }
+}

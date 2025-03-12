@@ -1,0 +1,21 @@
+@import './variables';
+@import './libs/normalise';
+@import './fonts';
+
+:root {
+  font-family: $app-font-family;
+
+  color: $cl-main-color;
+  background-color: $cl-main-bg;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}

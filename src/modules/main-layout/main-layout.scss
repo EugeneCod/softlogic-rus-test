@@ -1,0 +1,19 @@
+.main-layout {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-auto-rows: max-content;
+  grid-template-rows: auto 1fr;
+
+  &__sidebar {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+  }
+  &__control-bar {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+  &__card-list {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+}
