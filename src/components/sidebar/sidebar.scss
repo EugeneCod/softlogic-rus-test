@@ -3,9 +3,11 @@
   min-height: 100vh;
   width: 220px;
 
-  //width: 0;
-
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
+
+  @media (max-width: 800px) {
+    width: 0;
+  }
 }

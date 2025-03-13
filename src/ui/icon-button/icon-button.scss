@@ -1,4 +1,4 @@
-@import '@/styles/variables.scss';
+@use '@/styles/variables.scss' as v;
 
 .icon-button {
   width: 32px;
@@ -8,8 +8,9 @@
   align-items: center;
   background-color: #252635;
   border: 1px solid #35364d;
-  box-shadow: $double-shadows-twilight;
+  box-shadow: v.$double-shadows-twilight;
   padding: 0;
+  cursor: pointer;
 
   &.small {
     width: 24px;

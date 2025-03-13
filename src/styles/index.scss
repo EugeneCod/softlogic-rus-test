@@ -1,12 +1,12 @@
-@import './variables';
-@import './libs/normalise';
-@import './fonts';
+@use './variables' as v;
+@use './libs/normalise';
+@use './fonts';
 
 :root {
-  font-family: $app-font-family;
+  font-family: v.$app-font-family;
 
-  color: $cl-main-color;
-  background-color: $cl-main-bg;
+  color: v.$cl-main-color;
+  background-color: v.$cl-main-bg;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

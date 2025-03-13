@@ -1,12 +1,12 @@
-@import '@/styles/variables.scss';
+@use '@/styles/variables.scss' as v;
 
 .search-input {
   position: relative;
   width: 340px;
 
   &__field {
-    background-color: $cl-input-bg;
-    color: $cl-main-color;
+    background-color: v.$cl-input-bg;
+    color: v.$cl-main-color;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
@@ -17,10 +17,10 @@
     outline: 0;
     box-sizing: border-box;
     border-radius: 6px;
-    box-shadow: $double-shadows-twilight;
+    box-shadow: v.$double-shadows-twilight;
 
     &::placeholder {
-      color: $cl-main-color;
+      color: v.$cl-main-color;
     }
   }
 

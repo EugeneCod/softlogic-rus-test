@@ -1,0 +1,136 @@
+@use '@/styles/variables.scss' as v;
+
+.card {
+  background-color: #252635;
+  box-shadow: v.$double-shadows-twilight;
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1.4;
+  font-weight: 400;
+
+  &__top {
+    background-color: #35364d;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+
+  &__title-block {
+    padding: 11px 16px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+  }
+
+  &__title-image {
+    width: 16px;
+    height: 12.8px;
+  }
+
+  &__title {
+    color: #fff;
+    font-size: 14px;
+    line-height: 100%;
+    font-weight: 700;
+  }
+
+  &__image {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+    display: block;
+  }
+
+  &__bottom {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+  }
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__props-left-col {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+  }
+
+  &__props-right-col {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    column-gap: 8px;
+  }
+
+  &__props-value {
+    color: #fff;
+    &_blue {
+      color: #2585ec;
+    }
+  }
+
+  &__props-copy-btn {
+    background: none;
+    width: 16px;
+    height: 16px;
+    background-image: url(@/assets/images/icons/clone.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+  }
+
+  &__file-icon {
+    width: 10px;
+    height: 14px;
+  }
+
+  &__tags-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    column-gap: 5px;
+    margin-right: 8px;
+  }
+
+  &__tags-list-item {
+    &_green {
+      color: #039963;
+    }
+    &_orange {
+      color: #ee9441;
+    }
+    &_red {
+      color: #fa3c3c;
+    }
+  }
+
+  &__unwrap-btn {
+    background: none;
+    width: 16px;
+    height: 16px;
+    background-image: url(@/assets/images/icons/square-caret-down.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+  }
+
+  &__neuronet-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    column-gap: 8px;
+    margin-right: 8px;
+  }
+}

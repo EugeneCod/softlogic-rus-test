@@ -1,11 +1,11 @@
-@import '@/styles/variables.scss';
+@use '@/styles/variables.scss' as v;
 
 .select {
   position: relative;
   display: flex;
   align-items: center;
-  background-color: $cl-input-bg;
-  color: $cl-main-color;
+  background-color: v.$cl-input-bg;
+  color: v.$cl-main-color;
   height: 32px;
   max-width: 300px;
   width: 100%;

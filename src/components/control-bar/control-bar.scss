@@ -19,10 +19,8 @@
       max-width: none;
     }
   }
-}
 
-@media (max-width: 1240px) {
-  .control-bar {
+  @media (max-width: 1240px) {
     row-gap: 20px;
     grid-template-columns: repeat(3, 1fr);
 
@@ -31,10 +29,8 @@
       grid-row: 2/3;
     }
   }
-}
 
-@media (max-width: 1024px) {
-  .control-bar {
+  @media (max-width: 1024px) {
     row-gap: 20px;
     grid-template-columns: repeat(2, 1fr);
 
@@ -43,17 +39,12 @@
       grid-row: 2/3;
     }
   }
-}
 
-@media (max-width: 800px) {
-  .control-bar {
+  @media (max-width: 800px) {
     row-gap: 20px;
     grid-template-columns: 1fr;
     justify-items: center;
 
-    &__search {
-
-    }
     &__select-neuronet {
       max-width: 340px;
     }
@@ -65,9 +56,6 @@
     }
     &__select-period {
       max-width: 340px;
-    }
-    &__buttons-container {
-      
     }
   }
 }
