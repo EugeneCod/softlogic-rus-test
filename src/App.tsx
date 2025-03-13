@@ -1,11 +1,12 @@
 import { MainLayout, Popup } from './modules';
 import { Container } from './ui';
+import './App.scss';
 
 function App() {
   return (
-    <main>
+    <main className="app">
       <Container>
-        <MainLayout />
+        <MainLayout className="app__main-layout" />
         <Popup />
       </Container>
     </main>

@@ -87,11 +87,7 @@ const cards: CardProps[] = [
   },
 ];
 
-interface CardListProps extends PropsWithClassName {
-  cards: CardProps;
-}
-
-export const CardList = (props: CardListProps) => {
+export const CardList = (props: PropsWithClassName) => {
   const { className } = props;
   return (
     <ul className={`card-list ${className}`}>

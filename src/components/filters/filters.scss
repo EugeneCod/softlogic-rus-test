@@ -1,0 +1,39 @@
+@use '@/styles/variables.scss' as v;
+
+.filters {
+  width: 180px;
+  height: 152px;
+  border-radius: 8px;
+  box-shadow: v.$double-shadows-twilight;
+  padding: 16px;
+  background-color: #252635;
+  box-sizing: border-box;
+
+  &__btns-group {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    margin-bottom: 16px;
+  }
+
+  &__button {
+    background: none;
+    border: 1px solid #35364d;
+    color: #fff;
+    font-size: 14px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    border-radius: 6px;
+    padding: 0;
+    width: 100%;
+    cursor: pointer;
+    padding: 0 16px;
+  }
+
+  &____button-image {
+    width: 16px;
+    height: 16px;
+  }
+}

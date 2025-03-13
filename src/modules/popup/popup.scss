@@ -1,0 +1,14 @@
+.popup {
+  padding: 0 27px 40px;
+  display: flex;
+  column-gap: 130px;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+
+  &__file-addition-form {
+    flex: 1 1 auto;
+  }
+}
