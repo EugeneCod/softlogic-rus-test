@@ -5,8 +5,12 @@
   justify-content: center;
   align-items: center;
   row-gap: 16px;
-  border: 1px dashed #5e88d8;
+  border: 1px solid transparent;
+  border-image: url(@/assets/images/border-image.png);
+  border-image-slice: 2;
+
   height: 520px;
+  border-radius: 8px;
 
   @media (max-width: 800px) {
     height: 300px;
